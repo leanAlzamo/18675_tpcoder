@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SASSCODER/css/estiloUno.css">
+    <meta name="description" content="Este es el sitio web de mi gimnasio donde hay informacion de los horarios de las clases, imagenes del lugar y contenido general referido a la educacion fisica">
+    <meta name="keywords"  content="ENTRENAMIENTO, CROSSFIT, WEIGHTLIFTING, DEPORTE, SALUD, CUIDADOS PERSONALES"> 
+    <title>Focus</title>
+</head>
+<body>
+    <header>
+        <h1>FOCUS FORM</h1>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="quienesSomos.html">QUIENES SOMOS</a>
+                        <ul>
+                            <li>
+                                <a href="quienesSomos.html/#section1">SECCION A</a>
+                            </li>
+                            <li>
+                                <a href="quienesSomos.html/#section2">SECCION B</a>
+                            </li>
+                            <li>
+                                <a href="quienesSomos.html/#section3">SECCION C</a>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="secciones.html">SECCIONES</a>
+                </li>
+                <li>
+                    <a href="formulario.html">CONTACTO</a>
+                </li>
+                <li>
+                    <a href="galeriaDefotos.html">GALERIA DE FOTOS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+<div class="form"><h2>FORMULARIO ONLINE</h2></div>
+<div class="form1">
+    <form action="#" method="GET"></form>
+        <fieldset>
+            <legend class="legend">RELLENAR</legend>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" placeholder="Ingrese su nombre y apellido" id="nombre">
+                    <br><br>
+                <label for="edad">Edad</label>
+                <input type="number" placeholder="Ingrese su Edad" id="edad"> 
+                <br><br>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Ingrese su contraseña" id="password"> 
+                    <br><br>
+                <label for="EMAIL">EMAIL</label>
+                <input type="EMAIL" placeholder="ejemplo@ejemplo.com" id="EMAIL">
+                    <br><br>
+                <label for="tel">CELULAR</label>
+                <input type="number" placeholder="Celular" required id="tel">
+                <br><br>
+    </fieldset>
+    <fieldset>
+        Cuantas personas viven en su hogar?
+            <select name="cantidad">
+                <option value="solo">1</option>
+                <option value="acompaniado">2</option>
+                <option value="familia">3 o mas</option>
+            </select>
+    </fieldset>
+        <br><br>
+        <fieldset>
+            <legend class="legend">DEJE AQUI SU COMENTARIO</legend>
+                <textarea name="consulta" placeholder="Escriba Aqui"></textarea>
+        <br><br>
+            <label for="genero">Masculino</label>
+                <input type="radio" name="SEXO" value="MASCULINO" id="genero">
+            <label for="genero">Femenino</label>
+                <input type="radio" name="SEXO" value="FEMENINO" id="genero">
+        <BR><BR>
+            <label for="ENVIAR">ENVIAR</label>
+                <input type="submit" id="ENVIAR">
+            <label for="RESETEAR">RESETEAR</label>
+                <input type="reset" id="RESETEAR">
+        <BR></BR>
+        <div>
+            <label for="Terminos y condiciones">Terminos y condiciones</label>
+        <input type="checkbox" name="Terminos y condiciones" id="Terminos y condiciones">
+    </fieldset>
+</div>
+
+<!--mixims-->
+<main id="mixims">
+    <div class="tarjeta-1">
+        <div class="imagen"></div>
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+<label class="btn btn-secondary" for="option1">Checked</label>
+        </div>
+    <div class="tarjeta-2">
+        <div class="imagen"></div>
+        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+<label class="btn btn-secondary" for="option2">Radio</label>
+        </div>
+    <div class="tarjeta-3">
+        <div class="imagen"></div>
+        <div class="form-check form-switch">
+            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" disabled>
+<label class="btn btn-secondary" for="option3">Disabled</label>
+        </div>
+    </div> 
+    </main>
+
+    <hr>
+    <footer>
+        <div>
+            <h4>REDES SOCIALES</h4>
+        </div>
+        <div>
+            <ol>
+                <li>
+                    <a href="https://es-la.facebook.com/">FACEBOOK</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">INSTAGRAM</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=es">TWITTER</a>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h4>DERECHOS RESERVADOS 2020-2021</h4>
+        </div>
+    </footer>
+</body>
+</html>

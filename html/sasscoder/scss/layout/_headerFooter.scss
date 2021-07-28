@@ -1,0 +1,71 @@
+/*HEADER SASS*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        h1{
+            font-family: 'Big Shoulders Stencil Display', cursive; 
+            font-size: 5rem;
+            color: rgb(43, 83, 3);}
+        .menu{
+            display: inline;
+            text-align: center;
+            font-family: 'Big Shoulders Stencil Display', cursive;
+            font-size: 2rem;
+            letter-spacing: 0.2rem;
+            word-spacing: 0.1rem;
+            .menu ul li{
+                display: inline-block;
+                position: relative;
+                text-align: center;
+            }
+            ul ul{
+                position: absolute;
+                display: none;
+            }
+            ul ul li{
+                display: block;
+            }
+            .menu ul li a{
+                display: block;
+                text-decoration: none;
+                color: black;
+            }
+            ul li:hover ul{
+                display: block;
+            }
+            .menu ul li a:hover{
+                background-color: rgb(23, 240, 15);
+            }
+            li:hover{
+                background-color: darkgreen;
+            }
+        }
+    
+}
+
+/*FOOTER SASS*/
+footer{
+    text-align: center;
+    width: 100vw;
+    background-color: rgb(149, 248, 50);
+    Footer a{
+        color: darkgreen;
+        font-size: 1.5rem;
+        width: 100vw;
+        margin: 15px;
+        font-family: 'Bebas Neue', cursive;
+}   
+    h4{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8rem;
+        font-weight:bold;
+        color: rgb(82, 158, 6);
+        margin-top: 0;
+        margin-left: 20px;
+        margin-bottom: 0;
+} }
+
+
+

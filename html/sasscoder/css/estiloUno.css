@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  box-sizing: border-box; }
+
+/*HEADER SASS*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  header h1 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 5rem;
+    color: #2b5303; }
+  header .menu {
+    display: inline;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem; }
+    header .menu .menu ul li {
+      display: inline-block;
+      position: relative;
+      text-align: center; }
+    header .menu ul ul {
+      position: absolute;
+      display: none; }
+    header .menu ul ul li {
+      display: block; }
+    header .menu .menu ul li a {
+      display: block;
+      text-decoration: none;
+      color: black; }
+    header .menu ul li:hover ul {
+      display: block; }
+    header .menu .menu ul li a:hover {
+      background-color: #17f00f; }
+    header .menu li:hover {
+      background-color: darkgreen; }
+
+/*FOOTER SASS*/
+footer {
+  text-align: center;
+  width: 100vw;
+  background-color: #95f832; }
+  footer Footer a {
+    color: darkgreen;
+    font-size: 1.5rem;
+    width: 100vw;
+    margin: 15px;
+    font-family: 'Bebas Neue', cursive; }
+  footer h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #529e06;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0; }
+
+#mixims {
+  color: lightgreen;
+  display: flex;
+  justify-content: center; }
+  #mixims .tarjeta-1 {
+    background-color: green;
+    width: 250px;
+    margin: 2rem;
+    padding: 10px; }
+    #mixims .tarjeta-1 div .imagen {
+      background-color: mediumorchid;
+      width: 50px;
+      margin: 0 auto;
+      margin-bottom: 1rem; }
+  #mixims .tarjeta-2 {
+    background-color: red;
+    width: 300px;
+    margin: 2rem;
+    padding: 10px; }
+    #mixims .tarjeta-2 div .imagen {
+      background-color: mediumorchid;
+      width: 50px;
+      margin: 0 auto;
+      margin-bottom: 1rem; }
+  #mixims .tarjeta-3 {
+    background-color: pink;
+    width: 200px;
+    margin: 2rem;
+    padding: 10px; }
+    #mixims .tarjeta-3 div .imagen {
+      background-color: mediumorchid;
+      width: 50px;
+      margin: 0 auto;
+      margin-bottom: 1rem; }
+
+/*operaciones*/
+header {
+  height: 31vh; }
+
+footer {
+  height: 34vh; }
+
+/*index*/
+.whatsapp {
+  width: 90px;
+  position: fixed;
+  top: 65px;
+  right: 10px;
+  transition: 3sg; }
+  .whatsapp :hover {
+    transform: skew(20deg, 30deg); }
+
+#indexGrid {
+  display: grid;
+  grid-template-areas: "video  video  lateral" "tabla  tabla  lateral";
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+  #indexGrid #indexGrid__sectionGrid1 {
+    grid-area: video; }
+  #indexGrid #indexGrid__sectionGrid2 {
+    grid-area: tabla; }
+  #indexGrid #indexGrid__asideGrid {
+    grid-area: lateral; }
+  #indexGrid #indexGrid__asideGrid h4 {
+    margin-top: 10px; }
+
+/*QUIENES SOMOS*/
+.quienesSomos1 {
+  display: flex; }
+  .quienesSomos1 .quienesSomos1__imagen {
+    width: 600px; }
+  .quienesSomos1 .quienesSomos1__parrafo {
+    margin: 40px;
+    align-content: center; }
+
+.quienesSomos2 {
+  display: flex;
+  flex-direction: row-reverse; }
+  .quienesSomos2 .quienesSomos2__parrafo {
+    margin: 50px; }
+  .quienesSomos2 .quienesSomos2__yoga {
+    margin-left: 80px; }
+  .quienesSomos2 .quienesSomos2__imagen {
+    height: 500px; }
+
+.quienesSomos3 {
+  display: flex;
+  flex-direction: row; }
+  .quienesSomos3 .quienesSomos3__imagen {
+    width: 600px; }
+  .quienesSomos3 .quienesSomos3__parrafo {
+    margin: 40px;
+    margin-top: 100px; }
