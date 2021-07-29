@@ -1,0 +1,114 @@
+
+body{
+    height: 900px;
+    background-color: darkgreen;
+    position: relative;
+
+}
+h1{
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: 165px;
+    font-family: 'Big Shoulders Stencil Display', cursive; 
+    font-size: 5rem;
+    color: rgb(43, 83, 3);
+    background-color: black;
+}
+.carouselnuevo{
+    top: 20px;
+    z-index: 0;
+    background-color: black;
+    padding: 5px;
+    margin: auto;
+    width: 746px;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: darkred;
+    background-color: lightskyblue;
+    }
+
+
+
+footer {
+    position:absolute;
+    bottom:0px;
+    text-align: center;
+    width: 100vw;
+    background-color: rgb(1, 27, 1); }
+    footer Footer a {
+      color: white;
+      font-size: 1.5rem;
+      width: 100vw;
+      margin: 15px;
+      font-family: 'Big Shoulders Stencil Display', cursive; }
+    footer h4 {
+        font-family: 'Big Shoulders Stencil Display', cursive;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #529e06;
+      margin-top: 0;
+      margin-left: 20px;
+      margin-bottom: 0; }
+
+  header{
+        height: 30vh;
+        background-color: rgb(1, 27, 1);
+  }
+
+  hr{
+      margin: 0;
+  }
+.menu{
+    right: 250px;
+    position:absolute;
+    top:0px;
+    display: inline;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+ul ul{
+    
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    
+    display: block;
+}
+.menu ul li a{
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+ul li:hover ul{
+    display: block;
+}
+.menu ul li a:hover{
+    background-color: rgb(23, 240, 15);
+}
+li:hover{
+    background-color: darkgreen;
+}
+
+button{
+    color: white;
+    background-color: rgb(1, 27, 1);;
+}
